@@ -21,6 +21,7 @@ void WebChatKeyDump() {
 	DWORD WeChatAccountOffset = NULL;
 	memset(buffer, 0, sizeof buffer);
 	memset(version, 0, sizeof version);
+	printf("JaneMandy:github.com/JaneMandy");
 	char szAppFullPath[_MAX_PATH] = { 0 };
 	if (INVALID_HANDLE_VALUE == hSnapshot) {
 		return;
@@ -430,7 +431,7 @@ void WebChatKeyDump() {
 									char accoutbuffer[127];
 									char wechatmobile[127];
 									char webchatkey[33];
-									char KeyAddress[4];
+									char KeyAddress[124];
 									char KeyHexBuffer[64 + 1];
 
 									memset(KeyHexBuffer, 0, sizeof KeyHexBuffer);
