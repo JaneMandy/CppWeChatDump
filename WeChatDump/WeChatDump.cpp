@@ -411,6 +411,13 @@ void WebChatKeyDump() {
 								WeChatKeyOffset = 48419244;
 								printf("It's WeChat 3.9.0.28\n");
 							}
+							else if (strcmp("3.9.2.26", version) == 0) {
+								WeChatNameOffset = 50329040;
+								WeChatAccountOffset = 50329968;
+								WeChatMobileOffset = 50328896;
+								WeChatKeyOffset = 50329932;
+								printf("It's WeChat 3.9.0.28\n");
+							}
 							else {
 								string msg = "The WeChat version does not support key acquisition version:";
 								msg = msg + version;
